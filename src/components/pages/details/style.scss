@@ -1,0 +1,122 @@
+
+
+
+.cont {
+    padding-top: 60px;
+    margin-top: 30px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+.cont::before{
+
+}
+.plant-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.plant-item {
+    margin: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    width:fit-content;
+    max-width: 300px;
+    height: fit-content;
+    font-size: 2em;
+    overflow: hidden;
+    background-color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.plant-img {
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+}
+.plant-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px 8px 0 0;
+}
+.plant-details {
+    padding: 20px;
+}
+.plant-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.plant-common-name,
+.plant-optimal-sunlight,
+.plant-pruning-month,
+.plant-flowering-season,
+.plant-care-level {
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.contain1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    // background-color: #fff;
+    box-shadow: 10px 10px 10px rgba(10, 0, 0, 0.1);
+    opacity: 0.8;
+}
+.buttonstyle {
+    color: white;
+    background-color: #007bff;
+    height: 7vh;
+    padding: 5px;
+    border-radius: 5px;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.form-group input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+.form-group input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+#map {
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

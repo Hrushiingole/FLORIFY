@@ -1,0 +1,71 @@
+.contain {
+    display: flex;
+    margin-top: 10vh;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    // font-family: 'Libre Baskerville', serif;
+}
+
+.plant-card {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%; 
+    height: 75vh;
+}
+
+.plant-card:hover {
+    transform: translateY(-5px);
+}
+span{
+    color:#1f18187d;
+}
+
+.plant-card img {
+    width: 50%; 
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    max-width: 500px;
+}
+
+.plant-info {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.plant-info h2 {
+    margin-bottom: 40px;
+    color: #333;
+    font-size: 24px;
+}
+
+.plant-info p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.know-more-btn {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 16px;
+}
+.know-more-btn:hover {
+    background-color: #45a049;
+}
